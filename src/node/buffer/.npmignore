@@ -1,0 +1,5 @@
+.airtap.yml
+.travis.yml
+bin/
+perf/
+test/
