@@ -1,5 +1,5 @@
 {
-  "name": "browserify-sign",
+  "name": "create-sign",
   "version": "4.0.4",
   "description": "adds node crypto signing for browsers",
   "bugs": {
@@ -11,7 +11,8 @@
     "index.js",
     "algos.js"
   ],
-  "main": "index.js",
+  "browser": "browser/index.js",
+  "main": "browser/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/crypto-browserify/browserify-sign.git"
@@ -35,6 +36,5 @@
     "nyc": "^6.1.1",
     "standard": "^6.0.8",
     "tape": "^4.5.1"
-  },
-  "browser": "browser/index.js"
+  }
 }

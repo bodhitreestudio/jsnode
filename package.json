@@ -22,5 +22,19 @@
   },
   "homepage": "https://github.com/bodhiveggie/jsnode#readme",
   "dependencies": {
+    "buffer": "file:./src/node/buffer",
+    "cipher-base": "file:./src/node/crypto/cipher-base",
+    "create-hash": "file:./src/node/crypto/create-hash",
+    "create-hmac": "file:./src/node/crypto/create-hmac",
+    "create-sign": "file:./src/node/crypto/create-sign",
+    "evp_bytestokey": "file:./src/node/crypto/evp_bytestokey",
+    "hash-base": "file:./src/node/crypto/hash-base",
+    "md5.js": "file:./src/node/crypto/md5.js",
+    "parse-asn1": "file:./src/node/crypto/parse-asn1",
+    "pbkdf2": "file:./src/node/crypto/pbkdf2",
+    "public-encrypt": "file:./src/node/crypto/public-encrypt",
+    "randomBytes": "file:./src/node/crypto/randomBytes",
+    "rsa": "file:./src/node/crypto/rsa",
+    "sha.js": "file:./src/node/crypto/sha.js"
   }
 }

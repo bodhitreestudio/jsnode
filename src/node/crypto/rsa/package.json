@@ -1,5 +1,5 @@
 {
-  "name": "browserify-rsa",
+  "name": "rsa",
   "version": "4.0.1",
   "description": "RSA for browserify",
   "bugs": {

@@ -7,7 +7,7 @@
     "index.js",
     "legacy.js"
   ],
-  "main": "index.js",
+  "main": "browser.js",
   "scripts": {
     "standard": "standard",
     "test": "npm run-script standard && npm run-script unit",
