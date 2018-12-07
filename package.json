@@ -34,7 +34,7 @@
     "pbkdf2": "file:./src/node/crypto/pbkdf2",
     "public-encrypt": "file:./src/node/crypto/public-encrypt",
     "randombytes": "file:./src/node/crypto/randombytes",
-    "rsa": "file:./src/node/crypto/rsa",
+    "browserify-rsa": "file:./src/node/crypto/rsa",
     "sha.js": "file:./src/node/crypto/sha.js"
   }
 }

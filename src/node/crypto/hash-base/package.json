@@ -28,7 +28,8 @@
   },
   "dependencies": {
     "inherits": "^2.0.1",
-    "safe-buffer": "^5.0.1"
+    "safe-buffer": "^5.0.1",
+    "stream-browserify": "file:../../stream"
   },
   "devDependencies": {
     "nyc": "^8.3.2",
