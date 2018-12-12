@@ -1,0 +1,34 @@
+{
+  "name": "browserify-aes",
+  "version": "1.2.0",
+  "description": "aes, for browserify",
+  "browser": "browser.js",
+  "main": "browser.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "standard": "standard",
+    "unit": "node test/index.js | tspec",
+    "test": "npm run standard && npm run unit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/crypto-browserify/browserify-aes.git"
+  },
+  "keywords": [
+    "aes",
+    "crypto",
+    "browserify"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/crypto-browserify/browserify-aes/issues"
+  },
+  "homepage": "https://github.com/crypto-browserify/browserify-aes",
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}

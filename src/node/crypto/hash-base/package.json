@@ -27,14 +27,8 @@
     "unit": "node test/*.js"
   },
   "dependencies": {
-    "inherits": "^2.0.1",
-    "safe-buffer": "^5.0.1",
-    "stream-browserify": "file:../../stream"
   },
   "devDependencies": {
-    "nyc": "^8.3.2",
-    "standard": "*",
-    "tape": "^4.2.0"
   },
   "engines": {
     "node": ">=4"

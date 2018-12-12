@@ -11,11 +11,8 @@
     "url": "https://github.com/feross/safe-buffer/issues"
   },
   "dependencies": {
-    "buffer": "file:../buffer"
   },
   "devDependencies": {
-    "standard": "*",
-    "tape": "^4.0.0"
   },
   "homepage": "https://github.com/feross/safe-buffer",
   "keywords": [
