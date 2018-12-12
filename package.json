@@ -32,10 +32,15 @@
     "browserify-aes": "^1.0.0",
     "readable-stream": "^2.0.2",
 
+    "minimalistic-assert": "file:./src/libs/minimalistic-assert",
+    "asn1.js": "file:./src/libs/asn1.js",
+
+    "stream-browserify": "file:./src/node/stream",
     "buffer": "file:./src/node/buffer",
     "safe-buffer": "file:./src/node/safe-buffer",
     "buffer-xor": "file:./src/node/buffer-xor",
-    "stream-browserify": "file:./src/node/stream",
+    "vm": "file:./src/node/vm",
+
     "cipher-base": "file:./src/node/crypto/cipher-base",
     "create-hash": "file:./src/node/crypto/create-hash",
     "create-hmac": "file:./src/node/crypto/create-hmac",
