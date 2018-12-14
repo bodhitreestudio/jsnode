@@ -1,0 +1,42 @@
+{
+  "name": "counterpart",
+  "version": "0.18.6",
+  "description": "A translation and localization library for Node.js and the browser",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/martinandert/counterpart.git"
+  },
+  "keywords": [
+    "globalization",
+    "g11n",
+    "internationalization",
+    "i18n",
+    "localization",
+    "l10n",
+    "translation",
+    "translate",
+    "localize"
+  ],
+  "scripts": {
+    "test": "make test",
+    "lint": "make lint"
+  },
+  "author": {
+    "name": "Martin Andert",
+    "email": "mandert@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Callum Jefferies",
+      "email": "callum@callumj.uk"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/martinandert/counterpart/issues"
+  },
+  "homepage": "https://github.com/martinandert/counterpart",
+  "dependencies": { },
+  "devDependencies": { }
+}

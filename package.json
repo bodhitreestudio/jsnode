@@ -1,6 +1,6 @@
 {
   "name": "jsnode",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Node in pure JavaScript & some common jslibs",
   "main": "index.js",
   "scripts": {
@@ -28,18 +28,29 @@
     "ripemd160": "^2.0.1",
     "bn.js": "^4.1.1",
     "elliptic": "^6.0.0",
-    "asn1.js": "^4.0.0",
-    "browserify-aes": "^1.0.0",
     "readable-stream": "^2.0.2",
 
+    "date-names": "^0.1.11",
+    "except": "^0.1.3",
+    "extend": "^3.0.0",
+    "pluralizers": "^0.1.7",
+    "sprintf-js": "^1.0.3",
+
     "minimalistic-assert": "file:./src/libs/minimalistic-assert",
+    "counterpart": "file:./src/libs/counterpart",
+    "classnames": "file:./src/libs/classnames",
     "asn1.js": "file:./src/libs/asn1.js",
+    "qs": "file:./src/libs/qs",
 
     "stream-browserify": "file:./src/node/stream",
     "buffer": "file:./src/node/buffer",
+    "readable-stream": "file:./src/node/readable-stream",
     "safe-buffer": "file:./src/node/safe-buffer",
     "buffer-xor": "file:./src/node/buffer-xor",
     "vm": "file:./src/node/vm",
+    "util": "file:./src/node/util",
+    "util-deprecate": "file:./src/node/util-deprecate",
+    "string_decoder": "file:./src/node/string_decoder",
 
     "cipher-base": "file:./src/node/crypto/cipher-base",
     "create-hash": "file:./src/node/crypto/create-hash",

@@ -1,0 +1,6 @@
+v2
+.jshintrc
+.npmignore
+LICENSE
+Makefile
+spec.js
