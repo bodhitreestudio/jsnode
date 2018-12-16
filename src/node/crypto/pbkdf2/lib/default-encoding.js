@@ -3,8 +3,11 @@ var defaultEncoding
 if (process.browser) {
   defaultEncoding = 'utf-8'
 } else {
-  var pVersionMajor = parseInt(process.version.split('.')[0].slice(1), 10)
-
-  defaultEncoding = pVersionMajor >= 6 ? 'utf-8' : 'binary'
+  try {
+    var pVersionMajor = parseInt(process.version.split('.')[0].slice(1), 10)
+    defaultEncoding = pVersionMajor >= 6 ? 'utf-8' : 'binary'
+  } catch (err) {
+    defaultEncoding = 'utf-8'
+  }
 }
 module.exports = defaultEncoding
