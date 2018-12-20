@@ -1,6 +1,6 @@
 {
   "name": "jsnode",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "Node in pure JavaScript & some common jslibs",
   "main": "index.js",
   "scripts": {
@@ -41,6 +41,7 @@
     "classnames": "file:./src/libs/classnames",
     "asn1.js": "file:./src/libs/asn1.js",
     "qs": "file:./src/libs/qs",
+    "path-to-regexp": "file:./src/libs/path-to-regexp",
 
     "stream-browserify": "file:./src/node/stream",
     "buffer": "file:./src/node/buffer",
@@ -65,6 +66,9 @@
     "randombytes": "file:./src/node/crypto/randombytes",
     "browserify-rsa": "file:./src/node/crypto/rsa",
     "browserify-aes": "file:./src/node/crypto/aes",
-    "sha.js": "file:./src/node/crypto/sha.js"
+    "sha.js": "file:./src/node/crypto/sha.js",
+
+    "isarray": "file:./src/polyfills/Array.isArray"
+
   }
 }
