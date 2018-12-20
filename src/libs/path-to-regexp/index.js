@@ -1,13 +1,4 @@
 /**
- * Expose `pathToRegexp`.
- */
-module.exports = pathToRegexp
-module.exports.parse = parse
-module.exports.compile = compile
-module.exports.tokensToFunction = tokensToFunction
-module.exports.tokensToRegExp = tokensToRegExp
-
-/**
  * Default configs.
  */
 var DEFAULT_DELIMITER = '/'
@@ -369,3 +360,14 @@ function pathToRegexp (path, keys, options) {
 
   return stringToRegexp(/** @type {string} */ (path), keys, options)
 }
+
+pathToRegexp.parse            = parse;
+pathToRegexp.compile          = compile;
+pathToRegexp.tokensToFunction = tokensToFunction;
+pathToRegexp.tokensToRegExp   = tokensToRegExp;
+
+/**
+ * Expose `pathToRegexp`.
+ */
+module.exports = pathToRegexp
+
