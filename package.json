@@ -34,10 +34,9 @@
     "except": "^0.1.3",
     "extend": "^3.0.0",
     "pluralizers": "^0.1.7",
-    "sprintf-js": "^1.0.3",
+    "sprintf-js": "file:./src/libs/sprintf-js",
 
     "minimalistic-assert": "file:./src/libs/minimalistic-assert",
-    "counterpart": "file:./src/libs/counterpart",
     "classnames": "file:./src/libs/classnames",
     "asn1.js": "file:./src/libs/asn1.js",
     "qs": "file:./src/libs/qs",
